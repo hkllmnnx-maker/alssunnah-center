@@ -59,7 +59,7 @@ export const AboutPage = () => {
             <div data-aos="fade-right">
               <div class="relative">
                 <div class="bg-gradient-to-br from-emerald-deep-800 to-emerald-deep-950 rounded-3xl p-1 shadow-2xl">
-                  <div class="bg-cream rounded-3xl p-8 relative overflow-hidden">
+                  <div class="bg-cream dark:bg-ink rounded-3xl p-8 relative overflow-hidden">
                     <div class="absolute top-0 right-0 w-32 h-32 bg-royal-gold-400/10 rounded-full -mr-16 -mt-16"></div>
                     <div class="absolute bottom-0 left-0 w-40 h-40 bg-emerald-deep-400/10 rounded-full -ml-20 -mb-20"></div>
                     <div class="relative z-10 text-center">
@@ -86,7 +86,7 @@ export const AboutPage = () => {
       </section>
 
       {/* Vision Mission Values */}
-      <section class="py-20 bg-cream">
+      <section class="py-20 bg-cream dark:bg-ink">
         <div class="container mx-auto px-4">
           <div class="text-center mb-14" data-aos="fade-up">
             <h2 class="section-title text-3xl md:text-4xl font-extrabold text-emerald-deep-900 mb-4">
@@ -183,7 +183,7 @@ export const AboutPage = () => {
       </section>
 
       {/* Curriculum / Methodology */}
-      <section class="py-20 bg-cream">
+      <section class="py-20 bg-cream dark:bg-ink">
         <div class="container mx-auto px-4">
           <div class="grid lg:grid-cols-2 gap-12 items-center">
             <div data-aos="fade-right" class="order-2 lg:order-1">

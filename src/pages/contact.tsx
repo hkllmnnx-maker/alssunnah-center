@@ -182,7 +182,7 @@ export const ContactPage = () => {
       </section>
 
       {/* FAQ */}
-      <section class="py-16 bg-cream">
+      <section class="py-16 bg-cream dark:bg-ink">
         <div class="container mx-auto px-4">
           <div class="text-center mb-12" data-aos="fade-up">
             <h2 class="section-title text-3xl md:text-4xl font-extrabold text-emerald-deep-900 mb-4">

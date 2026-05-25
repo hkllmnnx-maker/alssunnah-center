@@ -138,7 +138,7 @@ export const CoursesPage = () => {
       </section>
 
       {/* Featured: الماهر 3 */}
-      <section class="py-16 bg-cream">
+      <section class="py-16 bg-cream dark:bg-ink">
         <div class="container mx-auto px-4">
           <div class="bg-gradient-to-br from-emerald-deep-800 to-emerald-deep-950 rounded-3xl overflow-hidden shadow-2xl relative" data-aos="zoom-in">
             <div class="absolute inset-0 opacity-10 pattern-bg-lg"></div>
@@ -204,7 +204,7 @@ export const CoursesPage = () => {
       </section>
 
       {/* Filter Bar */}
-      <section class="py-10 sticky top-[68px] bg-cream z-30 border-b border-gray-200">
+      <section class="py-10 sticky top-[68px] bg-cream dark:bg-ink z-30 border-b border-gray-200">
         <div class="container mx-auto px-4">
           <div class="flex flex-wrap items-center justify-center gap-3">
             {categories.map((cat, i) => (
@@ -273,7 +273,7 @@ export const CoursesPage = () => {
       </section>
 
       {/* How to Register */}
-      <section class="py-20 bg-cream">
+      <section class="py-20 bg-cream dark:bg-ink">
         <div class="container mx-auto px-4">
           <div class="text-center mb-12" data-aos="fade-up">
             <h2 class="section-title text-3xl md:text-4xl font-extrabold text-emerald-deep-900 mb-4">

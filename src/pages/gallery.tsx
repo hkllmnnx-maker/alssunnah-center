@@ -46,7 +46,7 @@ export const GalleryPage = () => {
       </section>
 
       {/* Filter */}
-      <section class="py-10 bg-cream">
+      <section class="py-10 bg-cream dark:bg-ink">
         <div class="container mx-auto px-4">
           <div class="flex flex-wrap items-center justify-center gap-3">
             {categories.map((cat, i) => (
