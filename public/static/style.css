@@ -23,10 +23,20 @@
   font-feature-settings: normal;
   font-variant-emoji: text;   /* Modern browsers: force text presentation */
   speak: none;
+  /* Block ANY emoji fallback chain on Apple/Google fonts */
+  unicode-bidi: normal;
 }
 .fas, .fa-solid { font-weight: 900 !important; }
 .far, .fa-regular { font-weight: 400 !important; }
 .fab, .fa-brands { font-family: "Font Awesome 6 Brands", "Font Awesome 5 Brands" !important; font-weight: 400 !important; }
+
+/* Prevent emoji color presentation on iOS Safari & Chrome Android
+   by forbidding any color emoji font from rendering FA glyphs */
+.fa::before, .fas::before, .far::before, .fab::before,
+[class^="fa-"]::before, [class*=" fa-"]::before {
+  font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands", "Font Awesome 5 Free", "FontAwesome" !important;
+  font-variant-emoji: text !important;
+}
 
 html { scroll-behavior: smooth; }
 
