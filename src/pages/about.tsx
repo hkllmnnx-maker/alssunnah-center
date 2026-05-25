@@ -5,7 +5,7 @@ export const AboutPage = () => {
       <section class="relative py-20 bg-gradient-primary text-white overflow-hidden">
         <div class="hero-pattern"></div>
         <div class="container mx-auto px-4 text-center relative z-10">
-          <div class="inline-flex items-center gap-2 bg-gold-500/20 border border-gold-400/30 text-gold-300 px-4 py-2 rounded-full text-sm font-bold mb-4" data-aos="fade-down">
+          <div class="inline-flex items-center gap-2 bg-royal-gold-500/20 border border-royal-gold-400/30 text-royal-gold-300 px-4 py-2 rounded-full text-sm font-bold mb-4" data-aos="fade-down">
             <i class="fas fa-mosque"></i>
             <span>تعرف علينا</span>
           </div>
@@ -15,9 +15,9 @@ export const AboutPage = () => {
             مسيرة علمية شرعية في خدمة الكتاب والسنة وإعداد طلاب العلم والدعاة
           </p>
           <nav class="text-sm mt-6">
-            <a href="/" class="text-gold-300 hover:text-gold-100">الرئيسية</a>
-            <span class="mx-2 text-gold-400">/</span>
-            <span class="text-gold-100">عن المركز</span>
+            <a href="/" class="text-royal-gold-300 hover:text-royal-gold-100">الرئيسية</a>
+            <span class="mx-2 text-royal-gold-400">/</span>
+            <span class="text-royal-gold-100">عن المركز</span>
           </nav>
         </div>
       </section>
@@ -27,12 +27,12 @@ export const AboutPage = () => {
         <div class="container mx-auto px-4">
           <div class="grid lg:grid-cols-2 gap-12 items-center">
             <div data-aos="fade-left">
-              <div class="inline-flex items-center gap-2 bg-primary-100 text-primary-800 px-4 py-2 rounded-full text-sm font-bold mb-4">
+              <div class="inline-flex items-center gap-2 bg-emerald-deep-100 text-emerald-deep-800 px-4 py-2 rounded-full text-sm font-bold mb-4">
                 <i class="fas fa-info-circle"></i>
                 <span>من نحن</span>
               </div>
-              <h2 class="text-3xl md:text-4xl font-extrabold text-primary-900 mb-6 leading-tight">
-                مركز <span class="text-gold-600">السنة</span> للعلوم الشرعية والتأهيل
+              <h2 class="text-3xl md:text-4xl font-extrabold text-emerald-deep-900 mb-6 leading-tight">
+                مركز <span class="text-royal-gold-600">السنة</span> للعلوم الشرعية والتأهيل
               </h2>
               <p class="text-gray-700 leading-loose mb-4">
                 مركز علمي شرعي متخصص يُعنى بتعليم العلوم الشرعية وتأهيل الدعاة وطلاب العلم،
@@ -58,21 +58,21 @@ export const AboutPage = () => {
 
             <div data-aos="fade-right">
               <div class="relative">
-                <div class="bg-gradient-to-br from-primary-800 to-primary-950 rounded-3xl p-1 shadow-2xl">
+                <div class="bg-gradient-to-br from-emerald-deep-800 to-emerald-deep-950 rounded-3xl p-1 shadow-2xl">
                   <div class="bg-cream rounded-3xl p-8 relative overflow-hidden">
-                    <div class="absolute top-0 right-0 w-32 h-32 bg-gold-400/10 rounded-full -mr-16 -mt-16"></div>
-                    <div class="absolute bottom-0 left-0 w-40 h-40 bg-primary-400/10 rounded-full -ml-20 -mb-20"></div>
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-royal-gold-400/10 rounded-full -mr-16 -mt-16"></div>
+                    <div class="absolute bottom-0 left-0 w-40 h-40 bg-emerald-deep-400/10 rounded-full -ml-20 -mb-20"></div>
                     <div class="relative z-10 text-center">
-                      <i class="fas fa-mosque text-primary-800 text-7xl mb-4"></i>
-                      <h3 class="text-2xl font-extrabold text-primary-900 mb-2">منذ 2010</h3>
+                      <i class="fas fa-mosque text-emerald-deep-800 text-7xl mb-4"></i>
+                      <h3 class="text-2xl font-extrabold text-emerald-deep-900 mb-2">منذ 2010</h3>
                       <p class="text-gray-700 mb-6">في خدمة العلم الشرعي</p>
                       <div class="grid grid-cols-2 gap-4">
                         <div class="bg-white rounded-xl p-4 shadow-md">
-                          <div class="text-3xl font-extrabold text-gold-600 mb-1">+1500</div>
+                          <div class="text-3xl font-extrabold text-royal-gold-600 mb-1">+1500</div>
                           <div class="text-sm text-gray-600">طالب</div>
                         </div>
                         <div class="bg-white rounded-xl p-4 shadow-md">
-                          <div class="text-3xl font-extrabold text-primary-700 mb-1">+45</div>
+                          <div class="text-3xl font-extrabold text-emerald-deep-700 mb-1">+45</div>
                           <div class="text-sm text-gray-600">دورة</div>
                         </div>
                       </div>
@@ -89,18 +89,18 @@ export const AboutPage = () => {
       <section class="py-20 bg-cream">
         <div class="container mx-auto px-4">
           <div class="text-center mb-14" data-aos="fade-up">
-            <h2 class="section-title text-3xl md:text-4xl font-extrabold text-primary-900 mb-4">
+            <h2 class="section-title text-3xl md:text-4xl font-extrabold text-emerald-deep-900 mb-4">
               رؤيتنا ورسالتنا وأهدافنا
             </h2>
           </div>
 
           <div class="grid md:grid-cols-3 gap-8">
             {/* Vision */}
-            <div class="bg-white p-8 rounded-2xl shadow-md relative overflow-hidden border-t-4 border-primary-700" data-aos="fade-up">
-              <div class="w-16 h-16 rounded-full bg-primary-100 text-primary-700 flex items-center justify-center mb-5 text-2xl">
+            <div class="bg-white p-8 rounded-2xl shadow-md relative overflow-hidden border-t-4 border-emerald-deep-700" data-aos="fade-up">
+              <div class="w-16 h-16 rounded-full bg-emerald-deep-100 text-emerald-deep-700 flex items-center justify-center mb-5 text-2xl">
                 <i class="fas fa-eye"></i>
               </div>
-              <h3 class="text-2xl font-bold text-primary-900 mb-4">رؤيتنا</h3>
+              <h3 class="text-2xl font-bold text-emerald-deep-900 mb-4">رؤيتنا</h3>
               <p class="text-gray-700 leading-loose">
                 صناعة الداعية المؤصل علميًا، المزكى إيمانيًا، المهذب أخلاقيًا، الماهر دعويًا،
                 وفق المنهج الوسطي المعتدل.
@@ -108,11 +108,11 @@ export const AboutPage = () => {
             </div>
 
             {/* Mission */}
-            <div class="bg-white p-8 rounded-2xl shadow-md relative overflow-hidden border-t-4 border-gold-500" data-aos="fade-up" data-aos-delay="100">
-              <div class="w-16 h-16 rounded-full bg-gold-100 text-gold-600 flex items-center justify-center mb-5 text-2xl">
+            <div class="bg-white p-8 rounded-2xl shadow-md relative overflow-hidden border-t-4 border-royal-gold-500" data-aos="fade-up" data-aos-delay="100">
+              <div class="w-16 h-16 rounded-full bg-royal-gold-100 text-royal-gold-600 flex items-center justify-center mb-5 text-2xl">
                 <i class="fas fa-bullseye"></i>
               </div>
-              <h3 class="text-2xl font-bold text-primary-900 mb-4">رسالتنا</h3>
+              <h3 class="text-2xl font-bold text-emerald-deep-900 mb-4">رسالتنا</h3>
               <p class="text-gray-700 leading-loose">
                 تقديم محتوى علمي شرعي راسخ، وبيئة تربوية متكاملة، تجمع بين أصالة العلم،
                 وعمق التزكية، ومهارة الدعوة، لخدمة الإسلام والمسلمين.
@@ -120,26 +120,26 @@ export const AboutPage = () => {
             </div>
 
             {/* Values */}
-            <div class="bg-white p-8 rounded-2xl shadow-md relative overflow-hidden border-t-4 border-primary-700" data-aos="fade-up" data-aos-delay="200">
-              <div class="w-16 h-16 rounded-full bg-primary-100 text-primary-700 flex items-center justify-center mb-5 text-2xl">
+            <div class="bg-white p-8 rounded-2xl shadow-md relative overflow-hidden border-t-4 border-emerald-deep-700" data-aos="fade-up" data-aos-delay="200">
+              <div class="w-16 h-16 rounded-full bg-emerald-deep-100 text-emerald-deep-700 flex items-center justify-center mb-5 text-2xl">
                 <i class="fas fa-gem"></i>
               </div>
-              <h3 class="text-2xl font-bold text-primary-900 mb-4">قيمنا</h3>
+              <h3 class="text-2xl font-bold text-emerald-deep-900 mb-4">قيمنا</h3>
               <ul class="text-gray-700 space-y-2">
                 <li class="flex items-start gap-2">
-                  <i class="fas fa-check-circle text-gold-500 mt-1"></i>
+                  <i class="fas fa-check-circle text-royal-gold-500 mt-1"></i>
                   <span>الإخلاص والتجرد لله</span>
                 </li>
                 <li class="flex items-start gap-2">
-                  <i class="fas fa-check-circle text-gold-500 mt-1"></i>
+                  <i class="fas fa-check-circle text-royal-gold-500 mt-1"></i>
                   <span>التميز العلمي والمنهجي</span>
                 </li>
                 <li class="flex items-start gap-2">
-                  <i class="fas fa-check-circle text-gold-500 mt-1"></i>
+                  <i class="fas fa-check-circle text-royal-gold-500 mt-1"></i>
                   <span>الوسطية والاعتدال</span>
                 </li>
                 <li class="flex items-start gap-2">
-                  <i class="fas fa-check-circle text-gold-500 mt-1"></i>
+                  <i class="fas fa-check-circle text-royal-gold-500 mt-1"></i>
                   <span>الجودة في كل عمل</span>
                 </li>
               </ul>
@@ -152,11 +152,11 @@ export const AboutPage = () => {
       <section class="py-20">
         <div class="container mx-auto px-4">
           <div class="text-center mb-14" data-aos="fade-up">
-            <div class="inline-flex items-center gap-2 bg-gold-100 text-gold-700 px-4 py-2 rounded-full text-sm font-bold mb-4">
+            <div class="inline-flex items-center gap-2 bg-royal-gold-100 text-royal-gold-700 px-4 py-2 rounded-full text-sm font-bold mb-4">
               <i class="fas fa-flag"></i>
               <span>أهدافنا</span>
             </div>
-            <h2 class="section-title text-3xl md:text-4xl font-extrabold text-primary-900 mb-4">
+            <h2 class="section-title text-3xl md:text-4xl font-extrabold text-emerald-deep-900 mb-4">
               أهداف المركز الإستراتيجية
             </h2>
           </div>
@@ -174,7 +174,7 @@ export const AboutPage = () => {
                 <div class="feature-icon mb-4">
                   <i class={`fas ${goal.icon}`}></i>
                 </div>
-                <h3 class="font-bold text-xl text-primary-900 mb-3">{goal.title}</h3>
+                <h3 class="font-bold text-xl text-emerald-deep-900 mb-3">{goal.title}</h3>
                 <p class="text-gray-600 text-sm leading-relaxed">{goal.desc}</p>
               </div>
             ))}
@@ -187,36 +187,36 @@ export const AboutPage = () => {
         <div class="container mx-auto px-4">
           <div class="grid lg:grid-cols-2 gap-12 items-center">
             <div data-aos="fade-right" class="order-2 lg:order-1">
-              <div class="bg-gradient-to-br from-primary-800 to-primary-950 rounded-3xl p-8 text-white shadow-2xl relative overflow-hidden">
-                <div class="absolute top-0 left-0 w-40 h-40 bg-gold-400/10 rounded-full -ml-20 -mt-20"></div>
-                <div class="absolute bottom-0 right-0 w-32 h-32 bg-gold-400/10 rounded-full -mr-16 -mb-16"></div>
+              <div class="bg-gradient-to-br from-emerald-deep-800 to-emerald-deep-950 rounded-3xl p-8 text-white shadow-2xl relative overflow-hidden">
+                <div class="absolute top-0 left-0 w-40 h-40 bg-royal-gold-400/10 rounded-full -ml-20 -mt-20"></div>
+                <div class="absolute bottom-0 right-0 w-32 h-32 bg-royal-gold-400/10 rounded-full -mr-16 -mb-16"></div>
                 <div class="relative z-10">
-                  <i class="fas fa-route text-gold-400 text-5xl mb-4"></i>
+                  <i class="fas fa-route text-royal-gold-400 text-5xl mb-4"></i>
                   <h3 class="text-2xl font-bold mb-6">مراحل المسار العلمي</h3>
                   <div class="space-y-4">
                     <div class="flex items-start gap-4">
-                      <div class="w-10 h-10 rounded-full bg-gold-500 text-primary-900 flex items-center justify-center font-bold flex-shrink-0">1</div>
+                      <div class="w-10 h-10 rounded-full bg-royal-gold-500 text-emerald-deep-900 flex items-center justify-center font-bold flex-shrink-0">1</div>
                       <div>
                         <h4 class="font-bold mb-1">المرحلة التأسيسية</h4>
                         <p class="text-sm text-gray-300">تعلم أساسيات العلوم الشرعية</p>
                       </div>
                     </div>
                     <div class="flex items-start gap-4">
-                      <div class="w-10 h-10 rounded-full bg-gold-500 text-primary-900 flex items-center justify-center font-bold flex-shrink-0">2</div>
+                      <div class="w-10 h-10 rounded-full bg-royal-gold-500 text-emerald-deep-900 flex items-center justify-center font-bold flex-shrink-0">2</div>
                       <div>
                         <h4 class="font-bold mb-1">المرحلة المتوسطة</h4>
                         <p class="text-sm text-gray-300">التعمق في كتب أهل العلم</p>
                       </div>
                     </div>
                     <div class="flex items-start gap-4">
-                      <div class="w-10 h-10 rounded-full bg-gold-500 text-primary-900 flex items-center justify-center font-bold flex-shrink-0">3</div>
+                      <div class="w-10 h-10 rounded-full bg-royal-gold-500 text-emerald-deep-900 flex items-center justify-center font-bold flex-shrink-0">3</div>
                       <div>
                         <h4 class="font-bold mb-1">المرحلة المتقدمة</h4>
                         <p class="text-sm text-gray-300">التحقيق والتخصص</p>
                       </div>
                     </div>
                     <div class="flex items-start gap-4">
-                      <div class="w-10 h-10 rounded-full bg-gold-500 text-primary-900 flex items-center justify-center font-bold flex-shrink-0">4</div>
+                      <div class="w-10 h-10 rounded-full bg-royal-gold-500 text-emerald-deep-900 flex items-center justify-center font-bold flex-shrink-0">4</div>
                       <div>
                         <h4 class="font-bold mb-1">مرحلة التأهيل</h4>
                         <p class="text-sm text-gray-300">التطبيق العملي والتأهيل الدعوي</p>
@@ -228,12 +228,12 @@ export const AboutPage = () => {
             </div>
 
             <div data-aos="fade-left" class="order-1 lg:order-2">
-              <div class="inline-flex items-center gap-2 bg-primary-100 text-primary-800 px-4 py-2 rounded-full text-sm font-bold mb-4">
+              <div class="inline-flex items-center gap-2 bg-emerald-deep-100 text-emerald-deep-800 px-4 py-2 rounded-full text-sm font-bold mb-4">
                 <i class="fas fa-balance-scale"></i>
                 <span>منهجنا</span>
               </div>
-              <h2 class="text-3xl md:text-4xl font-extrabold text-primary-900 mb-6 leading-tight">
-                المنهج <span class="text-gold-600">الوسطي المعتدل</span>
+              <h2 class="text-3xl md:text-4xl font-extrabold text-emerald-deep-900 mb-6 leading-tight">
+                المنهج <span class="text-royal-gold-600">الوسطي المعتدل</span>
               </h2>
               <p class="text-gray-700 leading-loose mb-4">
                 يعتمد المركز في تعليمه على المنهج الوسطي المعتدل القائم على الكتاب والسنة بفهم سلف الأمة الصالح،
@@ -242,23 +242,23 @@ export const AboutPage = () => {
               </p>
               <ul class="space-y-3 mt-6">
                 <li class="flex items-start gap-3">
-                  <i class="fas fa-check-double text-gold-500 text-lg mt-1"></i>
+                  <i class="fas fa-check-double text-royal-gold-500 text-lg mt-1"></i>
                   <span class="text-gray-700">دراسة كتب العقيدة على منهج أهل السنة والجماعة</span>
                 </li>
                 <li class="flex items-start gap-3">
-                  <i class="fas fa-check-double text-gold-500 text-lg mt-1"></i>
+                  <i class="fas fa-check-double text-royal-gold-500 text-lg mt-1"></i>
                   <span class="text-gray-700">دراسة الفقه على المذاهب الأربعة مع الترجيح بالدليل</span>
                 </li>
                 <li class="flex items-start gap-3">
-                  <i class="fas fa-check-double text-gold-500 text-lg mt-1"></i>
+                  <i class="fas fa-check-double text-royal-gold-500 text-lg mt-1"></i>
                   <span class="text-gray-700">العناية بالحديث وعلومه ومصطلحه</span>
                 </li>
                 <li class="flex items-start gap-3">
-                  <i class="fas fa-check-double text-gold-500 text-lg mt-1"></i>
+                  <i class="fas fa-check-double text-royal-gold-500 text-lg mt-1"></i>
                   <span class="text-gray-700">اهتمام خاص بعلوم اللغة العربية</span>
                 </li>
                 <li class="flex items-start gap-3">
-                  <i class="fas fa-check-double text-gold-500 text-lg mt-1"></i>
+                  <i class="fas fa-check-double text-royal-gold-500 text-lg mt-1"></i>
                   <span class="text-gray-700">دمج التزكية والسلوك مع التعليم</span>
                 </li>
               </ul>
@@ -274,7 +274,7 @@ export const AboutPage = () => {
             <div class="verse-box font-quran shadow-xl">
               يَرْفَعِ اللَّهُ الَّذِينَ آمَنُوا مِنكُمْ وَالَّذِينَ أُوتُوا الْعِلْمَ دَرَجَاتٍ
             </div>
-            <div class="text-center mt-4 text-primary-700 font-bold">[ سورة المجادلة - الآية 11 ]</div>
+            <div class="text-center mt-4 text-emerald-deep-700 font-bold">[ سورة المجادلة - الآية 11 ]</div>
           </div>
         </div>
       </section>

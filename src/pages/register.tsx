@@ -5,7 +5,7 @@ export const RegisterPage = () => {
       <section class="relative py-20 bg-gradient-primary text-white overflow-hidden">
         <div class="hero-pattern"></div>
         <div class="container mx-auto px-4 text-center relative z-10">
-          <div class="inline-flex items-center gap-2 bg-gold-500/20 border border-gold-400/30 text-gold-300 px-4 py-2 rounded-full text-sm font-bold mb-4" data-aos="fade-down">
+          <div class="inline-flex items-center gap-2 bg-royal-gold-500/20 border border-royal-gold-400/30 text-royal-gold-300 px-4 py-2 rounded-full text-sm font-bold mb-4" data-aos="fade-down">
             <i class="fas fa-user-plus"></i>
             <span>سجّل معنا</span>
           </div>
@@ -23,16 +23,16 @@ export const RegisterPage = () => {
             {/* Form */}
             <div class="lg:col-span-2" data-aos="fade-left">
               <div class="bg-white rounded-3xl shadow-xl p-8 md:p-10">
-                <h2 class="text-2xl md:text-3xl font-extrabold text-primary-900 mb-2 flex items-center gap-3">
-                  <i class="fas fa-clipboard-list text-gold-500"></i>
+                <h2 class="text-2xl md:text-3xl font-extrabold text-emerald-deep-900 mb-2 flex items-center gap-3">
+                  <i class="fas fa-clipboard-list text-royal-gold-500"></i>
                   استمارة التسجيل
                 </h2>
                 <p class="text-gray-600 mb-8">يرجى ملء البيانات بدقة ليتمكن المركز من التواصل معك</p>
 
                 <form id="registerForm" class="space-y-5">
                   {/* Personal Info */}
-                  <div class="border-r-4 border-gold-500 pr-4 mb-2">
-                    <h3 class="text-lg font-bold text-primary-900">البيانات الشخصية</h3>
+                  <div class="border-r-4 border-royal-gold-500 pr-4 mb-2">
+                    <h3 class="text-lg font-bold text-emerald-deep-900">البيانات الشخصية</h3>
                   </div>
 
                   <div class="grid md:grid-cols-2 gap-5">
@@ -62,8 +62,8 @@ export const RegisterPage = () => {
                   </div>
 
                   {/* Contact Info */}
-                  <div class="border-r-4 border-gold-500 pr-4 mb-2 mt-8">
-                    <h3 class="text-lg font-bold text-primary-900">معلومات التواصل</h3>
+                  <div class="border-r-4 border-royal-gold-500 pr-4 mb-2 mt-8">
+                    <h3 class="text-lg font-bold text-emerald-deep-900">معلومات التواصل</h3>
                   </div>
 
                   <div class="grid md:grid-cols-2 gap-5">
@@ -83,8 +83,8 @@ export const RegisterPage = () => {
                   </div>
 
                   {/* Course Info */}
-                  <div class="border-r-4 border-gold-500 pr-4 mb-2 mt-8">
-                    <h3 class="text-lg font-bold text-primary-900">بيانات الدورة</h3>
+                  <div class="border-r-4 border-royal-gold-500 pr-4 mb-2 mt-8">
+                    <h3 class="text-lg font-bold text-emerald-deep-900">بيانات الدورة</h3>
                   </div>
 
                   <div>
@@ -117,9 +117,9 @@ export const RegisterPage = () => {
                   </div>
 
                   {/* Terms */}
-                  <div class="bg-primary-50 border border-primary-200 rounded-xl p-4">
+                  <div class="bg-emerald-deep-50 border border-emerald-deep-200 rounded-xl p-4">
                     <label class="flex items-start gap-3 cursor-pointer">
-                      <input type="checkbox" required class="mt-1 w-5 h-5 accent-primary-700" />
+                      <input type="checkbox" required class="mt-1 w-5 h-5 accent-emerald-deep-700" />
                       <span class="text-sm text-gray-700">
                         أوافق على الالتزام بالنظام الداخلي للمركز والحضور المنتظم في مواعيد الدورة.
                       </span>
@@ -138,34 +138,34 @@ export const RegisterPage = () => {
             <div class="space-y-6" data-aos="fade-right">
               {/* Steps */}
               <div class="bg-white rounded-3xl shadow-xl p-6">
-                <h3 class="text-xl font-bold text-primary-900 mb-5 flex items-center gap-2">
-                  <i class="fas fa-route text-gold-500"></i>
+                <h3 class="text-xl font-bold text-emerald-deep-900 mb-5 flex items-center gap-2">
+                  <i class="fas fa-route text-royal-gold-500"></i>
                   خطوات التسجيل
                 </h3>
                 <div class="timeline">
                   <div class="timeline-item">
-                    <h4 class="font-bold text-primary-800 mb-1">املأ الاستمارة</h4>
+                    <h4 class="font-bold text-emerald-deep-800 mb-1">املأ الاستمارة</h4>
                     <p class="text-sm text-gray-600">ادخل بياناتك في النموذج</p>
                   </div>
                   <div class="timeline-item">
-                    <h4 class="font-bold text-primary-800 mb-1">انتظر التواصل</h4>
+                    <h4 class="font-bold text-emerald-deep-800 mb-1">انتظر التواصل</h4>
                     <p class="text-sm text-gray-600">سنتواصل معك عبر الواتساب</p>
                   </div>
                   <div class="timeline-item">
-                    <h4 class="font-bold text-primary-800 mb-1">تأكيد التسجيل</h4>
+                    <h4 class="font-bold text-emerald-deep-800 mb-1">تأكيد التسجيل</h4>
                     <p class="text-sm text-gray-600">سيتم تأكيد تسجيلك في الدورة</p>
                   </div>
                   <div class="timeline-item" style="padding-bottom: 0;">
-                    <h4 class="font-bold text-primary-800 mb-1">احضر الدورة</h4>
+                    <h4 class="font-bold text-emerald-deep-800 mb-1">احضر الدورة</h4>
                     <p class="text-sm text-gray-600">احضر إلى المركز في الموعد</p>
                   </div>
                 </div>
               </div>
 
               {/* Direct Contact */}
-              <div class="bg-gradient-to-br from-primary-800 to-primary-950 text-white rounded-3xl p-6 shadow-xl">
+              <div class="bg-gradient-to-br from-emerald-deep-800 to-emerald-deep-950 text-white rounded-3xl p-6 shadow-xl">
                 <h3 class="text-xl font-bold mb-4 flex items-center gap-2">
-                  <i class="fas fa-headset text-gold-400"></i>
+                  <i class="fas fa-headset text-royal-gold-400"></i>
                   التسجيل المباشر
                 </h3>
                 <p class="text-gray-300 text-sm mb-5">يمكنك التسجيل مباشرة عبر الاتصال أو الواتساب</p>
@@ -178,7 +178,7 @@ export const RegisterPage = () => {
                   </div>
                 </a>
 
-                <a href="tel:0772089390" class="flex items-center gap-3 bg-gold-500 hover:bg-gold-600 text-primary-950 rounded-xl p-4 transition">
+                <a href="tel:0772089390" class="flex items-center gap-3 bg-royal-gold-500 hover:bg-royal-gold-600 text-emerald-deep-950 rounded-xl p-4 transition">
                   <i class="fas fa-phone text-3xl"></i>
                   <div>
                     <div class="font-bold">اتصل بنا</div>
@@ -188,11 +188,11 @@ export const RegisterPage = () => {
               </div>
 
               {/* Note */}
-              <div class="bg-gold-50 border-2 border-gold-200 rounded-2xl p-5">
+              <div class="bg-royal-gold-50 border-2 border-royal-gold-200 rounded-2xl p-5">
                 <div class="flex items-start gap-3">
-                  <i class="fas fa-info-circle text-gold-600 text-2xl mt-1"></i>
+                  <i class="fas fa-info-circle text-royal-gold-600 text-2xl mt-1"></i>
                   <div class="text-sm text-gray-700 leading-relaxed">
-                    <strong class="text-gold-700">ملاحظة:</strong> المقاعد محدودة، يرجى المسارعة في التسجيل لضمان مقعدك في الدورة.
+                    <strong class="text-royal-gold-700">ملاحظة:</strong> المقاعد محدودة، يرجى المسارعة في التسجيل لضمان مقعدك في الدورة.
                   </div>
                 </div>
               </div>

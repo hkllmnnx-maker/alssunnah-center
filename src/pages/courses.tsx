@@ -9,8 +9,8 @@ const courses = [
     icon: 'fa-book-quran',
     status: 'open',
     statusName: 'التسجيل مفتوح',
-    statusColor: 'from-gold-500 to-gold-600',
-    bgGradient: 'from-primary-700 to-primary-950',
+    statusColor: 'from-royal-gold-500 to-royal-gold-600',
+    bgGradient: 'from-emerald-deep-700 to-emerald-deep-950',
     description: 'دورة مكثفة لإتقان تلاوة وحفظ القرآن الكريم بأحكام التجويد على يد نخبة من المشايخ المتقنين، وفق منهج تعليمي متدرج يأخذ بيد الطالب من الأساسيات حتى الإتقان.',
     features: ['تعليم التجويد', 'تصحيح التلاوة', 'حفظ منهجي', 'شهادة معتمدة'],
     instructor: 'الشيخ ناصر بن حسين',
@@ -27,7 +27,7 @@ const courses = [
     status: 'open',
     statusName: 'متاح',
     statusColor: 'from-blue-500 to-blue-600',
-    bgGradient: 'from-primary-600 to-primary-800',
+    bgGradient: 'from-emerald-deep-600 to-emerald-deep-800',
     description: 'دراسة معمّقة لكتاب الأدب المفرد للإمام البخاري رحمه الله، يتناول الآداب الإسلامية وأخلاق المعاملات بين المسلمين، مع شرح وتعليق وتأصيل.',
     features: ['شرح الأحاديث', 'استخراج الفوائد', 'تطبيقات معاصرة', 'مادة مرجعية'],
     instructor: 'الشيخ ناصر بن حسين',
@@ -44,7 +44,7 @@ const courses = [
     status: 'soon',
     statusName: 'قريبًا',
     statusColor: 'from-green-500 to-green-600',
-    bgGradient: 'from-gold-600 to-gold-800',
+    bgGradient: 'from-royal-gold-600 to-royal-gold-800',
     description: 'برنامج متكامل لتأهيل الأئمة والخطباء في الفقه والخطابة والتعامل مع المصلين والقيام بأعباء الإمامة على الوجه الصحيح.',
     features: ['فقه الإمامة', 'مهارات الخطابة', 'إدارة المسجد', 'التعامل مع الجمهور'],
     instructor: 'مجموعة من المشايخ',
@@ -60,8 +60,8 @@ const courses = [
     icon: 'fa-book',
     status: 'open',
     statusName: 'التسجيل مفتوح',
-    statusColor: 'from-gold-500 to-gold-600',
-    bgGradient: 'from-primary-800 to-primary-950',
+    statusColor: 'from-royal-gold-500 to-royal-gold-600',
+    bgGradient: 'from-emerald-deep-800 to-emerald-deep-950',
     description: 'شرح كتاب العقيدة الواسطية لشيخ الإسلام ابن تيمية رحمه الله، أحد أهم متون العقيدة على منهج أهل السنة والجماعة.',
     features: ['تأصيل عقدي', 'شرح المتن', 'الرد على الشبهات', 'متن أصيل'],
     instructor: 'الشيخ د. عبدالله',
@@ -77,8 +77,8 @@ const courses = [
     icon: 'fa-praying-hands',
     status: 'open',
     statusName: 'التسجيل مفتوح',
-    statusColor: 'from-gold-500 to-gold-600',
-    bgGradient: 'from-primary-700 to-primary-900',
+    statusColor: 'from-royal-gold-500 to-royal-gold-600',
+    bgGradient: 'from-emerald-deep-700 to-emerald-deep-900',
     description: 'دراسة شاملة لأحكام العبادات في الإسلام: الطهارة، الصلاة، الزكاة، الصيام، الحج، بأدلتها التفصيلية مع الترجيح بالدليل.',
     features: ['فقه مقارن', 'أدلة من الكتاب والسنة', 'تطبيقات معاصرة', 'تدريب عملي'],
     instructor: 'الشيخ محمد عبدالكريم',
@@ -95,7 +95,7 @@ const courses = [
     status: 'soon',
     statusName: 'قريبًا',
     statusColor: 'from-green-500 to-green-600',
-    bgGradient: 'from-gold-700 to-gold-900',
+    bgGradient: 'from-royal-gold-700 to-royal-gold-900',
     description: 'برنامج تربوي إيماني لتزكية القلوب وتطهير النفوس، يتناول أعمال القلوب من إخلاص ومحبة وخوف ورجاء وتوكل.',
     features: ['تربية القلوب', 'أعمال القلوب', 'الرقائق والمواعظ', 'بيئة إيمانية'],
     instructor: 'الشيخ خالد الزبيدي',
@@ -120,7 +120,7 @@ export const CoursesPage = () => {
       <section class="relative py-20 bg-gradient-primary text-white overflow-hidden">
         <div class="hero-pattern"></div>
         <div class="container mx-auto px-4 text-center relative z-10">
-          <div class="inline-flex items-center gap-2 bg-gold-500/20 border border-gold-400/30 text-gold-300 px-4 py-2 rounded-full text-sm font-bold mb-4" data-aos="fade-down">
+          <div class="inline-flex items-center gap-2 bg-royal-gold-500/20 border border-royal-gold-400/30 text-royal-gold-300 px-4 py-2 rounded-full text-sm font-bold mb-4" data-aos="fade-down">
             <i class="fas fa-graduation-cap"></i>
             <span>برامجنا التعليمية</span>
           </div>
@@ -130,9 +130,9 @@ export const CoursesPage = () => {
             تشكيلة متنوعة من الدورات الشرعية والبرامج التأهيلية لإعداد طلاب العلم والدعاة
           </p>
           <nav class="text-sm mt-6">
-            <a href="/" class="text-gold-300 hover:text-gold-100">الرئيسية</a>
-            <span class="mx-2 text-gold-400">/</span>
-            <span class="text-gold-100">الدورات</span>
+            <a href="/" class="text-royal-gold-300 hover:text-royal-gold-100">الرئيسية</a>
+            <span class="mx-2 text-royal-gold-400">/</span>
+            <span class="text-royal-gold-100">الدورات</span>
           </nav>
         </div>
       </section>
@@ -140,18 +140,18 @@ export const CoursesPage = () => {
       {/* Featured: الماهر 3 */}
       <section class="py-16 bg-cream">
         <div class="container mx-auto px-4">
-          <div class="bg-gradient-to-br from-primary-800 to-primary-950 rounded-3xl overflow-hidden shadow-2xl relative" data-aos="zoom-in">
+          <div class="bg-gradient-to-br from-emerald-deep-800 to-emerald-deep-950 rounded-3xl overflow-hidden shadow-2xl relative" data-aos="zoom-in">
             <div class="absolute inset-0 opacity-10 pattern-bg-lg"></div>
             <div class="grid lg:grid-cols-2 gap-8 p-8 md:p-12 relative z-10">
               <div class="text-white">
-                <div class="inline-flex items-center gap-2 bg-gold-500 text-primary-950 px-4 py-1.5 rounded-full text-sm font-bold mb-4">
+                <div class="inline-flex items-center gap-2 bg-royal-gold-500 text-emerald-deep-950 px-4 py-1.5 rounded-full text-sm font-bold mb-4">
                   <i class="fas fa-star"></i>
                   دورة مميزة
                 </div>
                 <h2 class="text-4xl md:text-5xl font-extrabold mb-4 leading-tight">
                   دورة <span class="text-shine">الماهر 3</span>
                 </h2>
-                <p class="text-gold-300 text-lg mb-6">إتقان القرآن الكريم - تجويدًا وحفظًا</p>
+                <p class="text-royal-gold-300 text-lg mb-6">إتقان القرآن الكريم - تجويدًا وحفظًا</p>
                 <p class="text-gray-200 leading-loose mb-6">
                   دورة مكثفة على مدى 19 يومًا، تأخذ بيد الطالب لإتقان تلاوة القرآن الكريم وحفظه بأحكام التجويد،
                   على يد نخبة من المشايخ المتقنين، في بيئة علمية إيمانية مميزة.
@@ -159,18 +159,18 @@ export const CoursesPage = () => {
 
                 <div class="grid grid-cols-3 gap-4 mb-6">
                   <div class="bg-white/10 backdrop-blur-sm rounded-xl p-4 text-center border border-white/20">
-                    <i class="fas fa-calendar-alt text-gold-400 text-2xl mb-2"></i>
-                    <div class="text-2xl font-extrabold text-gold-400">19</div>
+                    <i class="fas fa-calendar-alt text-royal-gold-400 text-2xl mb-2"></i>
+                    <div class="text-2xl font-extrabold text-royal-gold-400">19</div>
                     <div class="text-xs text-gray-300">يومًا</div>
                   </div>
                   <div class="bg-white/10 backdrop-blur-sm rounded-xl p-4 text-center border border-white/20">
-                    <i class="fas fa-users text-gold-400 text-2xl mb-2"></i>
-                    <div class="text-2xl font-extrabold text-gold-400">150</div>
+                    <i class="fas fa-users text-royal-gold-400 text-2xl mb-2"></i>
+                    <div class="text-2xl font-extrabold text-royal-gold-400">150</div>
                     <div class="text-xs text-gray-300">مقعدًا</div>
                   </div>
                   <div class="bg-white/10 backdrop-blur-sm rounded-xl p-4 text-center border border-white/20">
-                    <i class="fas fa-hourglass-half text-gold-400 text-2xl mb-2"></i>
-                    <div class="text-2xl font-extrabold text-gold-400">16</div>
+                    <i class="fas fa-hourglass-half text-royal-gold-400 text-2xl mb-2"></i>
+                    <div class="text-2xl font-extrabold text-royal-gold-400">16</div>
                     <div class="text-xs text-gray-300">يوم متبقي</div>
                   </div>
                 </div>
@@ -189,10 +189,10 @@ export const CoursesPage = () => {
 
               <div class="flex items-center justify-center">
                 <div class="relative">
-                  <div class="w-72 h-72 bg-gradient-to-br from-gold-400/30 to-gold-600/30 rounded-full backdrop-blur-md border-2 border-gold-400/50 flex items-center justify-center animate-float">
-                    <i class="fas fa-book-quran text-gold-300 text-9xl glow-text"></i>
+                  <div class="w-72 h-72 bg-gradient-to-br from-royal-gold-400/30 to-royal-gold-600/30 rounded-full backdrop-blur-md border-2 border-royal-gold-400/50 flex items-center justify-center animate-float">
+                    <i class="fas fa-book-quran text-royal-gold-300 text-9xl glow-text"></i>
                   </div>
-                  <div class="absolute -top-4 -left-4 bg-gold-500 text-primary-950 px-4 py-2 rounded-full font-bold shadow-lg">
+                  <div class="absolute -top-4 -left-4 bg-royal-gold-500 text-emerald-deep-950 px-4 py-2 rounded-full font-bold shadow-lg">
                     <i class="fas fa-fire ml-1"></i>
                     تسجيل مفتوح
                   </div>
@@ -210,7 +210,7 @@ export const CoursesPage = () => {
             {categories.map((cat, i) => (
               <button
                 class={`filter-btn flex items-center gap-2 px-5 py-2.5 rounded-full font-bold text-sm transition border-2 ${
-                  i === 0 ? 'active bg-primary-700 text-white border-primary-700' : 'bg-white text-gray-700 border-gray-200 hover:border-primary-700 hover:text-primary-700'
+                  i === 0 ? 'active bg-emerald-deep-700 text-white border-emerald-deep-700' : 'bg-white text-gray-700 border-gray-200 hover:border-emerald-deep-700 hover:text-emerald-deep-700'
                 }`}
                 data-filter={cat.id}
               >
@@ -231,19 +231,19 @@ export const CoursesPage = () => {
                 <div class={`course-image flex items-center justify-center bg-gradient-to-br ${course.bgGradient}`}>
                   <div class={`course-badge bg-gradient-to-r ${course.statusColor}`}>{course.statusName}</div>
                   <div class="text-center text-white relative z-10">
-                    <i class={`fas ${course.icon} text-6xl text-gold-400 mb-3`}></i>
+                    <i class={`fas ${course.icon} text-6xl text-royal-gold-400 mb-3`}></i>
                     <div class="text-2xl font-extrabold">{course.name}</div>
-                    <div class="text-sm mt-2 text-gold-200">{course.categoryName}</div>
+                    <div class="text-sm mt-2 text-royal-gold-200">{course.categoryName}</div>
                   </div>
                 </div>
                 <div class="p-6">
                   <div class="flex items-center gap-3 text-sm text-gray-500 mb-3 flex-wrap">
                     <span class="flex items-center gap-1">
-                      <i class="fas fa-clock text-primary-600"></i>
+                      <i class="fas fa-clock text-emerald-deep-600"></i>
                       {course.duration}
                     </span>
                     <span class="flex items-center gap-1">
-                      <i class="fas fa-users text-primary-600"></i>
+                      <i class="fas fa-users text-emerald-deep-600"></i>
                       {course.seats} مقعد
                     </span>
                   </div>
@@ -251,16 +251,16 @@ export const CoursesPage = () => {
 
                   <div class="flex flex-wrap gap-1 mb-4">
                     {course.features.slice(0, 3).map(f => (
-                      <span class="bg-primary-50 text-primary-700 text-xs px-2 py-1 rounded-md font-medium">{f}</span>
+                      <span class="bg-emerald-deep-50 text-emerald-deep-700 text-xs px-2 py-1 rounded-md font-medium">{f}</span>
                     ))}
                   </div>
 
                   <div class="flex items-center justify-between pt-4 border-t">
-                    <div class="text-primary-700 font-bold text-sm">
-                      <i class="fas fa-user-tie ml-1 text-gold-500"></i>
+                    <div class="text-emerald-deep-700 font-bold text-sm">
+                      <i class="fas fa-user-tie ml-1 text-royal-gold-500"></i>
                       {course.instructor}
                     </div>
-                    <a href={`/register?course=${course.id}`} class="text-primary-700 hover:text-gold-600 font-bold flex items-center gap-1 text-sm">
+                    <a href={`/register?course=${course.id}`} class="text-emerald-deep-700 hover:text-royal-gold-600 font-bold flex items-center gap-1 text-sm">
                       التسجيل
                       <i class="fas fa-arrow-left text-sm"></i>
                     </a>
@@ -276,7 +276,7 @@ export const CoursesPage = () => {
       <section class="py-20 bg-cream">
         <div class="container mx-auto px-4">
           <div class="text-center mb-12" data-aos="fade-up">
-            <h2 class="section-title text-3xl md:text-4xl font-extrabold text-primary-900 mb-4">
+            <h2 class="section-title text-3xl md:text-4xl font-extrabold text-emerald-deep-900 mb-4">
               طريقة التسجيل
             </h2>
             <p class="text-gray-600 max-w-2xl mx-auto mt-4">
@@ -286,29 +286,29 @@ export const CoursesPage = () => {
 
           <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <div class="text-center" data-aos="fade-up">
-              <div class="w-20 h-20 mx-auto mb-5 bg-gradient-to-br from-gold-400 to-gold-600 rounded-2xl flex items-center justify-center text-white text-3xl font-extrabold shadow-lg">
+              <div class="w-20 h-20 mx-auto mb-5 bg-gradient-to-br from-royal-gold-400 to-royal-gold-600 rounded-2xl flex items-center justify-center text-white text-3xl font-extrabold shadow-lg">
                 1
               </div>
-              <i class="fas fa-edit text-primary-700 text-3xl mb-3"></i>
-              <h3 class="font-bold text-xl text-primary-900 mb-2">املأ نموذج التسجيل</h3>
+              <i class="fas fa-edit text-emerald-deep-700 text-3xl mb-3"></i>
+              <h3 class="font-bold text-xl text-emerald-deep-900 mb-2">املأ نموذج التسجيل</h3>
               <p class="text-gray-600 text-sm">قم بتعبئة استمارة التسجيل ببياناتك الشخصية ومعلومات التواصل.</p>
             </div>
 
             <div class="text-center" data-aos="fade-up" data-aos-delay="100">
-              <div class="w-20 h-20 mx-auto mb-5 bg-gradient-to-br from-gold-400 to-gold-600 rounded-2xl flex items-center justify-center text-white text-3xl font-extrabold shadow-lg">
+              <div class="w-20 h-20 mx-auto mb-5 bg-gradient-to-br from-royal-gold-400 to-royal-gold-600 rounded-2xl flex items-center justify-center text-white text-3xl font-extrabold shadow-lg">
                 2
               </div>
-              <i class="fab fa-whatsapp text-primary-700 text-3xl mb-3"></i>
-              <h3 class="font-bold text-xl text-primary-900 mb-2">انتظر تواصل المركز</h3>
+              <i class="fab fa-whatsapp text-emerald-deep-700 text-3xl mb-3"></i>
+              <h3 class="font-bold text-xl text-emerald-deep-900 mb-2">انتظر تواصل المركز</h3>
               <p class="text-gray-600 text-sm">سيتواصل معك فريق المركز عبر الواتساب لتأكيد التسجيل واستكمال البيانات.</p>
             </div>
 
             <div class="text-center" data-aos="fade-up" data-aos-delay="200">
-              <div class="w-20 h-20 mx-auto mb-5 bg-gradient-to-br from-gold-400 to-gold-600 rounded-2xl flex items-center justify-center text-white text-3xl font-extrabold shadow-lg">
+              <div class="w-20 h-20 mx-auto mb-5 bg-gradient-to-br from-royal-gold-400 to-royal-gold-600 rounded-2xl flex items-center justify-center text-white text-3xl font-extrabold shadow-lg">
                 3
               </div>
-              <i class="fas fa-check-circle text-primary-700 text-3xl mb-3"></i>
-              <h3 class="font-bold text-xl text-primary-900 mb-2">احضر الدورة</h3>
+              <i class="fas fa-check-circle text-emerald-deep-700 text-3xl mb-3"></i>
+              <h3 class="font-bold text-xl text-emerald-deep-900 mb-2">احضر الدورة</h3>
               <p class="text-gray-600 text-sm">احضر إلى مقر المركز في الموعد المحدد للبدء في الدورة بإذن الله.</p>
             </div>
           </div>
