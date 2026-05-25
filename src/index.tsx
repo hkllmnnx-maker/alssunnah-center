@@ -7,6 +7,9 @@ import { GalleryPage } from './pages/gallery'
 import { ContactPage } from './pages/contact'
 import { RegisterPage } from './pages/register'
 import { NewsPage } from './pages/news'
+import { DepartmentsPage } from './pages/departments'
+import { LibraryPage } from './pages/library'
+import { MediaPage } from './pages/media'
 
 const app = new Hono()
 
@@ -20,6 +23,18 @@ app.get('/', (c) => {
 
 app.get('/about', (c) => {
   return c.render(<AboutPage />, { title: 'عن المركز' })
+})
+
+app.get('/departments', (c) => {
+  return c.render(<DepartmentsPage />, { title: 'الأقسام العلمية' })
+})
+
+app.get('/library', (c) => {
+  return c.render(<LibraryPage />, { title: 'المكتبة الرقمية' })
+})
+
+app.get('/media', (c) => {
+  return c.render(<MediaPage />, { title: 'الوسائط المتعددة' })
 })
 
 app.get('/courses', (c) => {
@@ -46,11 +61,9 @@ app.get('/register', (c) => {
 app.post('/api/register', async (c) => {
   try {
     const data = await c.req.json()
-    // Basic validation
     if (!data.fullName || !data.phone || !data.course) {
       return c.json({ success: false, message: 'الرجاء تعبئة جميع الحقول الإلزامية' }, 400)
     }
-    // In production: save to D1 database or forward to admin
     console.log('New registration:', data)
     return c.json({
       success: true,
@@ -82,12 +95,12 @@ app.post('/api/contact', async (c) => {
 // ===== 404 Page =====
 app.notFound((c) => {
   return c.render(
-    <section class="min-h-[70vh] flex items-center justify-center bg-cream py-20">
+    <section class="min-h-[70vh] flex items-center justify-center bg-gray-50 dark:bg-gray-950 py-20">
       <div class="text-center container mx-auto px-4">
-        <div class="text-9xl font-extrabold text-primary-700 mb-4">404</div>
-        <i class="fas fa-mosque text-gold-500 text-6xl mb-6"></i>
-        <h1 class="text-3xl md:text-4xl font-extrabold text-primary-900 mb-4">الصفحة غير موجودة</h1>
-        <p class="text-gray-600 mb-8 max-w-md mx-auto">عذرًا، الصفحة التي تبحث عنها غير موجودة أو تم نقلها.</p>
+        <div class="text-9xl font-extrabold text-emerald-deep-900 dark:text-royal-gold-300 mb-4">404</div>
+        <i class="fas fa-mosque text-royal-gold-500 text-6xl mb-6"></i>
+        <h1 class="text-3xl md:text-4xl font-extrabold text-emerald-deep-900 dark:text-white mb-4">الصفحة غير موجودة</h1>
+        <p class="text-gray-600 dark:text-gray-400 mb-8 max-w-md mx-auto">عذرًا، الصفحة التي تبحث عنها غير موجودة أو تم نقلها.</p>
         <a href="/" class="btn-primary">
           <i class="fas fa-home"></i>
           العودة للرئيسية
