@@ -1,21 +1,107 @@
-```txt
+# مركز السنة للعلوم الشرعية والتأهيل | Markaz Al-Sunnah
+
+## نظرة عامة على المشروع
+- **الاسم**: موقع مركز السنة للعلوم الشرعية والتأهيل
+- **الهدف**: بناء موقع إلكتروني احترافي يخدم مركز السنة للعلوم الشرعية والتأهيل (مركز شرعي علمي)، ويعرض رؤيته ودوراته ويتيح للطلاب التسجيل والتواصل.
+- **الفئة المستهدفة**: طلاب العلم الشرعي، الدعاة، حفظة القرآن، والمهتمون بالعلوم الإسلامية.
+- **منهج المركز**: المنهج الوسطي المعتدل وفق الكتاب والسنة.
+
+## رؤية المركز
+> صناعة الداعية المؤصل علميًا، المزكى إيمانيًا، المهذب أخلاقيًا، الماهر دعويًا، وفق المنهج الوسطي المعتدل.
+
+## الميزات الحالية (المرحلة الأولى - الواجهات)
+- ✅ تصميم احترافي عربي RTL متجاوب (Responsive)
+- ✅ هوية بصرية كاملة بألوان المركز (الأخضر الإسلامي + الذهبي + الكريمي)
+- ✅ صفحة رئيسية ديناميكية مع Hero Section و Stats Counter
+- ✅ صفحة "عن المركز" مع الرؤية والرسالة والأهداف والمنهج
+- ✅ صفحة الدورات مع تصنيفات وفلترة (الماهر 3 - الأدب المفرد - تأهيل الأئمة...)
+- ✅ صفحة معرض الصور مع فلترة وتأثيرات
+- ✅ صفحة الأخبار والفعاليات
+- ✅ صفحة التسجيل مع نموذج كامل
+- ✅ صفحة التواصل مع نموذج رسائل و FAQ
+- ✅ تكامل مع Facebook و WhatsApp
+- ✅ زر واتساب عائم
+- ✅ زر العودة للأعلى
+- ✅ قائمة جوال متجاوبة
+- ✅ تأثيرات حركية AOS Animation
+- ✅ APIs خلفية: `/api/register` و `/api/contact`
+
+## مسارات الموقع (Functional URIs)
+
+### الصفحات
+| المسار | الوصف | الطريقة |
+|--------|-------|---------|
+| `/` | الصفحة الرئيسية مع Hero و رؤية و دورات مميزة | GET |
+| `/about` | عن المركز - الرؤية والرسالة والأهداف والمنهج | GET |
+| `/courses` | جميع الدورات مع الفلترة بالتصنيف | GET |
+| `/gallery` | معرض الصور بفلترة | GET |
+| `/news` | الأخبار والفعاليات | GET |
+| `/contact` | تواصل معنا - نموذج + FAQ | GET |
+| `/register` | استمارة التسجيل في الدورات | GET |
+| `/register?course=ID` | تسجيل في دورة محددة (course=maher-3 مثلًا) | GET |
+
+### واجهات الـ API
+| المسار | الطريقة | البيانات | الوصف |
+|--------|---------|----------|--------|
+| `/api/register` | POST | `{ fullName, phone, course, age, gender, city, whatsapp, email, education, notes }` | استقبال طلب التسجيل |
+| `/api/contact` | POST | `{ name, phone, email, subject, message }` | استقبال رسائل التواصل |
+
+## الميزات غير المنجزة بعد (مراحل قادمة)
+- ⏳ ربط قاعدة بيانات Cloudflare D1 لحفظ التسجيلات والرسائل
+- ⏳ لوحة تحكم للإدارة لاستعراض التسجيلات والرسائل
+- ⏳ نظام مستخدمين/طلاب (تسجيل دخول)
+- ⏳ تكامل مع واتساب API لإرسال إشعارات تلقائية للتسجيلات
+- ⏳ نظام إدارة المحتوى للأخبار والدورات (CMS)
+- ⏳ رفع الصور الحقيقية للمعرض من صفحة الفيسبوك
+- ⏳ خدمة البث المباشر للدروس
+- ⏳ صفحة ملف الشيخ/المحاضر
+- ⏳ نظام دفع الرسوم إن وجدت
+
+## الخطوات التالية الموصى بها
+1. إضافة قاعدة بيانات D1 لحفظ التسجيلات
+2. بناء لوحة تحكم للإدارة `/admin`
+3. تكامل مع إشعارات WhatsApp Business API
+4. استبدال الأيقونات بصور حقيقية من المركز
+5. إضافة محرّك بحث داخلي للدورات والأخبار
+6. تحويل Tailwind من CDN إلى build للأداء الأفضل في الإنتاج
+
+## بنية البيانات (المعدّة للقاعدة لاحقًا)
+- **Registrations**: id, fullName, phone, whatsapp, email, age, gender, city, course, education, notes, status, createdAt
+- **ContactMessages**: id, name, phone, email, subject, message, status, createdAt
+- **Courses**: id, name, slug, category, duration, seats, startDate, instructor, description, status
+- **News**: id, title, slug, category, content, image, publishedAt
+
+## معلومات التواصل (المتوفرة من صفحة الفيسبوك)
+- **الهاتف**: 0772 089 390
+- **واتساب**: 0771 405 482
+- **Facebook**: [@alssuunah](https://www.facebook.com/alssuunah/)
+
+## التشغيل المحلي
+```bash
+# تثبيت الحزم (مرة واحدة)
 npm install
-npm run dev
+
+# بناء المشروع
+npm run build
+
+# تشغيل عبر PM2
+pm2 start ecosystem.config.cjs
+
+# الوصول إلى الموقع
+# http://localhost:3000
 ```
 
-```txt
-npm run deploy
-```
+## التقنيات المستخدمة
+- **الإطار الخلفي**: Hono Framework (Edge-first)
+- **منصة النشر**: Cloudflare Pages
+- **الأنماط**: TailwindCSS (CDN)
+- **الأيقونات**: Font Awesome 6
+- **الخطوط العربية**: Cairo, Tajawal, Amiri (Google Fonts)
+- **الحركات**: AOS (Animate On Scroll)
+- **اللغة**: TypeScript + JSX (Hono JSX Renderer)
+- **مدير العمليات**: PM2
 
-[For generating/synchronizing types based on your Worker configuration run](https://developers.cloudflare.com/workers/wrangler/commands/#types):
-
-```txt
-npm run cf-typegen
-```
-
-Pass the `CloudflareBindings` as generics when instantiation `Hono`:
-
-```ts
-// src/index.ts
-const app = new Hono<{ Bindings: CloudflareBindings }>()
-```
+## النشر
+- **المنصة**: Cloudflare Pages
+- **الحالة**: ⏳ قيد التطوير (لم يُنشر بعد للإنتاج)
+- **آخر تحديث**: 2026-05-25
