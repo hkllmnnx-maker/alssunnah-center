@@ -8,6 +8,26 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* ============================================================
+   CRITICAL: Force Font Awesome to render as vector icons ONLY
+   Prevents OS-level emoji substitution on Apple/Android devices
+   ============================================================ */
+.fa, .fas, .far, .fab, .fal, .fad,
+[class^="fa-"], [class*=" fa-"] {
+  font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands", "Font Awesome 5 Free", "FontAwesome" !important;
+  font-style: normal !important;
+  font-variant: normal !important;
+  text-rendering: auto !important;
+  line-height: 1 !important;
+  -webkit-font-feature-settings: normal;
+  font-feature-settings: normal;
+  font-variant-emoji: text;   /* Modern browsers: force text presentation */
+  speak: none;
+}
+.fas, .fa-solid { font-weight: 900 !important; }
+.far, .fa-regular { font-weight: 400 !important; }
+.fab, .fa-brands { font-family: "Font Awesome 6 Brands", "Font Awesome 5 Brands" !important; font-weight: 400 !important; }
+
 html { scroll-behavior: smooth; }
 
 body {

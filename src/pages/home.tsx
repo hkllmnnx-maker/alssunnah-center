@@ -240,7 +240,7 @@ export const HomePage = () => {
 
             {/* اللغة العربية */}
             <div class="department-card" data-aos="fade-up" data-aos-delay="320">
-              <div class="dept-icon"><i class="fas fa-language"></i></div>
+              <div class="dept-icon"><i class="fas fa-pen-nib"></i></div>
               <h3 class="font-extrabold text-2xl text-emerald-deep-900 dark:text-royal-gold-400 mb-3">اللغة العربية</h3>
               <p class="text-gray-600 dark:text-gray-300 leading-loose mb-5 line-clamp-3">
                 تعليم النحو والصرف والبلاغة، من الآجرومية والقطر وحتى الألفية، مع مهارات الكتابة
@@ -254,7 +254,7 @@ export const HomePage = () => {
 
             {/* السيرة والتزكية */}
             <div class="department-card" data-aos="fade-up" data-aos-delay="400">
-              <div class="dept-icon"><i class="fas fa-heart"></i></div>
+              <div class="dept-icon"><i class="fas fa-spa"></i></div>
               <h3 class="font-extrabold text-2xl text-emerald-deep-900 dark:text-royal-gold-400 mb-3">السيرة والتزكية</h3>
               <p class="text-gray-600 dark:text-gray-300 leading-loose mb-5 line-clamp-3">
                 دراسة السيرة النبوية وتزكية النفوس على ضوء الكتاب والسنة، وأعمال القلوب من إخلاص
@@ -323,10 +323,10 @@ export const HomePage = () => {
                 { title: 'شرح العقيدة الواسطية', author: 'الشيخ ناصر بن حسين', icon: 'fa-shield-alt', cat: 'العقيدة' },
                 { title: 'فقه العبادات', author: 'الشيخ محمد عبدالكريم', icon: 'fa-praying-hands', cat: 'الفقه' },
                 { title: 'الأدب المفرد - تفريغ', author: 'تفريغ دروس الشيخ', icon: 'fa-scroll', cat: 'الحديث' },
-                { title: 'تزكية النفوس', author: 'الشيخ خالد الزبيدي', icon: 'fa-heart', cat: 'التزكية' },
+                { title: 'تزكية النفوس', author: 'الشيخ خالد الزبيدي', icon: 'fa-spa', cat: 'التزكية' },
                 { title: 'منهج الداعية', author: 'الشيخ د. عبدالله', icon: 'fa-bullhorn', cat: 'الدعوة' },
                 { title: 'مختصر التفسير', author: 'إصدار المركز', icon: 'fa-quran', cat: 'التفسير' },
-                { title: 'في رحاب الآجرومية', author: 'إصدار المركز', icon: 'fa-language', cat: 'اللغة' },
+                { title: 'في رحاب الآجرومية', author: 'إصدار المركز', icon: 'fa-pen-nib', cat: 'اللغة' },
               ].map((book, i) => (
                 <div class="swiper-slide">
                   <div class="book-card">

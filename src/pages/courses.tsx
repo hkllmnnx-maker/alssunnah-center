@@ -91,7 +91,7 @@ const courses = [
     categoryName: 'تزكية',
     duration: '15 يومًا',
     seats: 80,
-    icon: 'fa-heart',
+    icon: 'fa-spa',
     status: 'soon',
     statusName: 'قريبًا',
     statusColor: 'from-green-500 to-green-600',
@@ -109,7 +109,7 @@ const categories = [
   { id: 'hadith', name: 'الحديث', icon: 'fa-scroll' },
   { id: 'aqeedah', name: 'العقيدة', icon: 'fa-book' },
   { id: 'fiqh', name: 'الفقه', icon: 'fa-balance-scale' },
-  { id: 'tazkiya', name: 'تزكية', icon: 'fa-heart' },
+  { id: 'tazkiya', name: 'تزكية', icon: 'fa-spa' },
   { id: 'training', name: 'تأهيل', icon: 'fa-user-tie' },
 ]
 

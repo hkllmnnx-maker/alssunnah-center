@@ -23,7 +23,7 @@ const categories = [
   { id: 'tafsir', name: 'التفسير', icon: 'fa-book-quran' },
   { id: 'hadith', name: 'الحديث', icon: 'fa-scroll' },
   { id: 'fiqh', name: 'الفقه', icon: 'fa-balance-scale' },
-  { id: 'arabic', name: 'اللغة', icon: 'fa-language' },
+  { id: 'arabic', name: 'اللغة', icon: 'fa-pen-nib' },
   { id: 'seerah', name: 'السيرة', icon: 'fa-mosque' }
 ]
 
