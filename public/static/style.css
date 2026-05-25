@@ -48,6 +48,46 @@ body {
 
 html.dark body { background-color: #0a1410; color: #e5e7eb; }
 
+/* ============================================================
+   Global Dark Mode Fixes for Legacy Pages
+   Auto-invert white surfaces and gray text in dark mode so that
+   legacy components without explicit dark: variants remain readable.
+   ============================================================ */
+html.dark .bg-white:not(.no-dark-invert) {
+  background-color: #0f4034 !important;
+  color: #e5e7eb;
+}
+html.dark .bg-gray-50:not(.no-dark-invert) {
+  background-color: #0a1f1a !important;
+}
+html.dark .bg-gray-100:not(.no-dark-invert) {
+  background-color: #102b25 !important;
+}
+html.dark .text-gray-700:not(.no-dark-invert),
+html.dark .text-gray-800:not(.no-dark-invert),
+html.dark .text-gray-900:not(.no-dark-invert) {
+  color: #d1d5db !important;
+}
+html.dark .text-gray-600:not(.no-dark-invert),
+html.dark .text-gray-500:not(.no-dark-invert) {
+  color: #9ca3af !important;
+}
+html.dark .border-gray-100,
+html.dark .border-gray-200,
+html.dark .border-gray-300 {
+  border-color: rgba(197, 160, 89, 0.15) !important;
+}
+/* Ensure form inputs are readable in dark mode */
+html.dark input:not([type="submit"]):not([type="button"]):not(.no-dark-invert),
+html.dark select:not(.no-dark-invert),
+html.dark textarea:not(.no-dark-invert) {
+  background-color: #0f4034 !important;
+  color: #e5e7eb !important;
+  border-color: rgba(197, 160, 89, 0.2) !important;
+}
+html.dark input::placeholder,
+html.dark textarea::placeholder { color: #6b7280 !important; }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Cairo', 'Tajawal', sans-serif;
   letter-spacing: -0.01em;
